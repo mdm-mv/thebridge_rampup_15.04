@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Simple</title>
+    <style>table, th, td {
+        border: 1px solid black;
+        text-align: left;}
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        table {
+        border-spacing: 5px;
+        }
+        th {
+            background-color: green;
+        }
+        </style>
+</head>
+<body>
+    <table style="width: 70%;">
+        <tr>
+           <th style="color: ivory;">Name</th>
+           <th style="color: ivory;">Age</th>
+           <th style="color: ivory;" colspan="3">Location</th> 
+        </tr>
+        <tr>
+            <td rowspan="2">Aziz</td>
+            <td rowspan="2">26</td>
+            <td>Chicago</td>
+            <td>IL</td>
+        </tr>
+        <tr>
+            <td>San Diego</td>
+            <td>CA</td>
+        </tr>
+        <tr>
+            <td>Jen</td>
+            <td>40</td>
+            <td>New York</td>
+            <td>NY</td>
+        </tr>
+        <tr>
+            <td>Jordan</td>
+            <td>29</td>
+            <td>London</td>
+            <td>UK</td>
+        </tr>
+    </table>
+</body>
+</html>

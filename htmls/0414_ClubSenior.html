@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+
+    </style>
+
+</head>
+<body>
+<form action="" method="GET" target="_blank">
+<fieldset>
+    <legend>Tú</legend>
+    <label for="nombre" autofocus>Nombre</label>
+    <input id="nombre" name="nombre" type="text" tabindex="1">
+    <br>
+    <label for="apellidos">Apellidos</label>
+    <input id="apellidos" name="apellidos" type="text" tabindex="2">
+    <br>
+    <label for="edad">Edad</label>
+    <input id="edad" name="edad" type="number" tabindex="3">
+    <br>
+    <label for="hombre">Hombre</label>
+    <input id="hombre" name="hombre" type="radio" tabindex="4">
+    <label for="mujer">Mujer</label>
+    <input id="mujer" name="mujer" type="radio" tabindex="5">
+    <br>
+    <label>Me siento viejuner</label>
+    <label for="MeSiento1">Sí</label>
+    <input id="MeSiento1" name="MeSiento" type="checkbox" tabindex="6">
+    <label for="MeSiento2">No</label>
+    <input id="MeSiento2" name="MeSiento" type="checkbox" tabindex="7">
+    <br>
+    <label for="sobre">Escribe algo sobre ti</label>
+    <br>
+    <textarea id="sobre" name="sobre" type="area" cols="30" rows=10 tabindex="8"></textarea>
+    <br>
+        
+
+</fieldset>
+<fieldset>
+    <legend>Tus circunstancias</legend>
+    <label for="email">Correo electrónico</label>
+    <input id="email" name="email" type="email" tabindex="9">
+    <br>
+    <label for="teléfono">Teléfono</label>
+    <input id="teléfono" name="teléfono" type="tel" tabindex="10">
+    <label for="cell">Móvil</label>
+    <input type="cell" id="cell" name="cell" pattern="[0-9]{9}" tabindex="11" placeholder="Ejemplo: 123456789">
+    <br>
+</fieldset>
+<br>
+    <input  type="submit" value="Enviar">
+    <input type="reset" value="Borrar formulario">
+
+</form>
+</body>
